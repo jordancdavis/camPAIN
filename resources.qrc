@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/head">
+        <file>Resources/John-Kasich-Headshot.jpg</file>
+        <file>Resources/ted-cruz.jpg</file>
+        <file>Resources/Sanders_SQ.png</file>
+        <file>Resources/Hillary-Clinton.jpg</file>
+        <file>Resources/headshot_dc-celebrity-portrait-photographers.jpg</file>
+        <file>Resources/Hillary5.png</file>
+        <file>Resources/DonaldTrump5.png</file>
+        <file>Resources/BerniePainders5.png</file>
+        <file>Resources/TedCruzx5.png</file>
+        <file>Resources/John Kasichx5.png</file>
+        <file>Resources/elephant.png</file>
+        <file>Resources/Statue_Liberty.png</file>
+        <file>Resources/donkey.png</file>
+        <file>Resources/PresidentSeal.png</file>
+    </qresource>
+</RCC>

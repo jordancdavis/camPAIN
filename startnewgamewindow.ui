@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartNewGameWindow</class>
+ <widget class="QWidget" name="StartNewGameWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>New Game</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">     background-color:white;
+</string>
+  </property>
+  <widget class="QPushButton" name="returnToMenuButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>125</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{
+	color:red;
+	border: 1px solid #000000;
+					 border-radius: 15px;
+
+}
+
+QPushButton:pressed
+{
+	color:red;
+     background-color:rgba(0, 145, 255, 128);
+}</string>
+   </property>
+   <property name="text">
+    <string>Game Menu</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>260</y>
+     <width>500</width>
+     <height>350</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="matchButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>200</y>
+      <width>175</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton
+{
+	color:blue;
+	border: 1px solid #000000;
+					 border-radius: 15px;
+
+}
+
+QPushButton:pressed
+{
+	color:red;
+     background-color:rgba(0, 145, 255, 128);
+}</string>
+    </property>
+    <property name="text">
+     <string>Take Quiz</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="userSelectButton">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>200</y>
+      <width>175</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton
+{
+	color:blue;
+	border: 1px solid #000000;
+					 border-radius: 15px;
+
+}
+
+QPushButton:pressed
+{
+	color:red;
+     background-color:rgba(0, 145, 255, 128);
+}</string>
+    </property>
+    <property name="text">
+     <string>Select Character</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>175</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Take a quick quiz to find out which candidate you are most compatable with.</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>40</y>
+      <width>175</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>If you already have a candidate in mind, select your own.</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>372</x>
+     <y>20</y>
+     <width>250</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/head/Resources/PresidentSeal.png)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
